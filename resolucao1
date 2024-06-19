@@ -1,0 +1,9 @@
+# Solicitando os dados ao usuário
+primeiro_dado = input("Digite o seu nome: ")
+segundo_dado = input("Digite seu sobrenome: ")
+
+# Concatenando os dados em uma única string
+concatenado = primeiro_dado + segundo_dado
+
+# Apresentando o resultado na tela
+print("Dados concatenados:", concatenado)
